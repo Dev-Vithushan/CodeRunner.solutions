@@ -1,40 +1,32 @@
-import { useRef } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import "../styles/main.css";
-import Logo from "../images/logo.png"
+import { Component } from "react";
+import "./NavbarStyles.css"
+import { Link } from "react-router-dom";
 
-function Navbar() {
-	const navRef = useRef();
 
-	const showNavbar = () => {
-		navRef.current.classList.toggle(
-			"responsive_nav"
-		);
-	};
+class Navbar extends Component {
+  render(){
+    return (
+      <nav className="NavbarItems">
+        <h1 className="navbar-logo"> CodeRunner  </h1>
 
-	return (
-		<header>
-			<img  style={{ width: 150, height: 75, marginTop:30 }} src={Logo} alt="Logo" />
-			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">Services</a>
-				<a href="/#">Blog</a>
-				<a href="/#">Meet Team</a>
-        <a className="containerContact" href="/#">Contact Us</a>
-        <a href="/#">About Us</a>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<FaTimes />
-				</button>
-			</nav>
-			<button
-				className="nav-btn"
-				onClick={showNavbar}>
-				<FaBars />
-			</button>
-		</header>
-	);
+        <ul className="nav-menu">
+          <li>
+            <a href="/">
+            <i className="fa-light fa-house-user"></i>
+            
+              Home
+       
+            
+            </a>
+          </li>
+
+
+        </ul>
+        
+
+      </nav>
+      
+    )
+  }
 }
-
 export default Navbar;
