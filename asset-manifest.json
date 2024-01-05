@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CodeRunner.solutions/static/css/main.c51ef87a.css",
-    "main.js": "/CodeRunner.solutions/static/js/main.d09df675.js",
-    "static/js/787.ecf5217c.chunk.js": "/CodeRunner.solutions/static/js/787.ecf5217c.chunk.js",
+    "main.css": "/CodeRunner.solutions/static/css/main.a89eeb31.css",
+    "main.js": "/CodeRunner.solutions/static/js/main.006337e5.js",
+    "static/js/787.c3ccd75d.chunk.js": "/CodeRunner.solutions/static/js/787.c3ccd75d.chunk.js",
     "static/media/design.jpg": "/CodeRunner.solutions/static/media/design.a7abcfeb34b88d4e1c30.jpg",
     "static/media/waves.jpg": "/CodeRunner.solutions/static/media/waves.2c6821a26119ab025c10.jpg",
     "static/media/aboutNew.jpg": "/CodeRunner.solutions/static/media/aboutNew.fe71cb1cdd16fc0a91db.jpg",
@@ -27,12 +27,12 @@
     "static/media/fa-v4compatibility.ttf": "/CodeRunner.solutions/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/CodeRunner.solutions/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/CodeRunner.solutions/index.html",
-    "main.c51ef87a.css.map": "/CodeRunner.solutions/static/css/main.c51ef87a.css.map",
-    "main.d09df675.js.map": "/CodeRunner.solutions/static/js/main.d09df675.js.map",
-    "787.ecf5217c.chunk.js.map": "/CodeRunner.solutions/static/js/787.ecf5217c.chunk.js.map"
+    "main.a89eeb31.css.map": "/CodeRunner.solutions/static/css/main.a89eeb31.css.map",
+    "main.006337e5.js.map": "/CodeRunner.solutions/static/js/main.006337e5.js.map",
+    "787.c3ccd75d.chunk.js.map": "/CodeRunner.solutions/static/js/787.c3ccd75d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51ef87a.css",
-    "static/js/main.d09df675.js"
+    "static/css/main.a89eeb31.css",
+    "static/js/main.006337e5.js"
   ]
 }
